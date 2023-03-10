@@ -18,9 +18,9 @@ steps:
 -uses: actions/checkout@v3
 
 
--name: npm install, test and build
+-name: npm instal, test and build
 run: |
-npm install
+npm instal
 npm run build
 
 -name: Run a one-line script
